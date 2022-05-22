@@ -32,6 +32,14 @@ main {
 
 /* IMGS & ICONS */
 
+.svg1 {
+    width: 80%;
+}
+
+.svg2 {
+    width: 100%;
+}
+
 img {
     width: 100%;
 }
@@ -201,6 +209,10 @@ p {
     text-align: left
 }
 
+.timeline {
+    font-size: 30px;
+}
+
 
 /* FOOTER */
 #contact p {
@@ -274,7 +286,9 @@ a:focus {
     padding-top: 25px;
 }
 
-
+.button-space {
+    padding-top: 70px;
+}
 /* LAYOUT STYLING */
 .row {
     margin: 100px 0; 
@@ -287,9 +301,8 @@ a:focus {
 }
 
 .container {
-    padding: 0 30px;
+    padding: 15px;
 }
-
 
 /* LISTS */
 .task-list {
@@ -328,6 +341,7 @@ ol.center-list li {
 
 
 /* ANIMATION TASK 1.8 */
+
 @keyframes person1 {
     from {
         fill: #f00
@@ -436,6 +450,10 @@ ol.center-list li {
     float: left;
 }
 
+.col-md-12 {
+    width: 100%;
+}
+
 #work {
     max-width: 1200px
 }
@@ -447,9 +465,21 @@ ol.center-list li {
 }
 
 /* ==============================
-Medium devices (660px and larger)
+Medium devices (641px and larger)
 ================================= */
-@media only screen and (min-width: 660px) {
+@media only screen and (min-width: 641px) {
+.container {
+    padding: 30px;
+}
+
+.svg1 {
+    width: 80%;
+}
+
+.svg2 {
+    width: 100%;
+}
+
 header {
     text-align: unset;
     padding: 20px 20px 13px;
@@ -524,7 +554,7 @@ p {
 }
 
 .button {
-    padding-left: 15px; 
+    padding-left: 25px; 
 }
 
 .lists {
@@ -536,9 +566,8 @@ p {
 }
 
 
-#teanna {
-    width: 300px;
-    height: auto;
+#teanna-logo {
+    width: 400px;
 }
 
 }
@@ -547,10 +576,9 @@ p {
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-    
+
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 100px 100px 100px;
 }
 
 .col-lg-6 {
@@ -567,7 +595,7 @@ Large devices (1024px or larger)
 
 .textWrapper {
     width: 70%;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 #teanna-logo {
@@ -602,14 +630,30 @@ p {
     padding-left: 25%;
 }
 
-.lists {
-    padding-left: 250px;
+.skills{
+    text-align: center;
 }
 
-.toolsWrapper {
-    padding-left: 550px;
+.tools{
+    text-align: center;
+    padding-left: 270px;
 }
 
+.skills-wrapper{
+    text-align: left;
+}
+.tools-wrapper {
+    text-align: left;
+}
 
+.svg1 {
+    width: 80%;
+    align-items: center;
+    padding-top: 70px;
+}
 
+.svg2{
+    width: 80%;
+    padding-left: 100px;
+}
 }
