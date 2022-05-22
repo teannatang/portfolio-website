@@ -31,6 +31,11 @@ main {
 
 
 /* IMGS & ICONS */
+
+img {
+    width: 100%;
+}
+
 #teanna-logo {
     max-width: 100px;
     padding-left: 0px
@@ -529,8 +534,11 @@ p {
 .toolsWrapper {
     padding-left: 5px;
 }
-img {
-    width: 90%;
+
+
+#teanna {
+    width: 300px;
+    height: auto;
 }
 
 }
@@ -602,9 +610,6 @@ p {
     padding-left: 550px;
 }
 
-img {
-    width: 100%;
-}
 
 
 }
