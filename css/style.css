@@ -52,7 +52,7 @@ img {
 
 #teanna {
     float: right;
-    padding-right: 50px;
+    padding: 20px;
     width: 250px;
     height: auto;
 }
@@ -93,12 +93,7 @@ img {
     max-height: 800px;
 }
 
-.competitiveanalysisWrapper {
-    padding-left: 200px;
-}
-.competitiveanalysis {
-    width: 1000px;
-}
+
 
 /* HERO SECTION */
 #hero { 
@@ -252,7 +247,7 @@ a:focus {
 
 /* BUTTONS */
 .button {
-    text-align: center;
+    /* text-align: center; */
     background-color: #dbad9ff3;
     color: #2e2d2d; 
     font-size: 25px;
@@ -273,22 +268,17 @@ a:focus {
     text-decoration: none;
 }
 
-.buttoncenter {
-    float: left;
-    padding-left: 537px;
-    padding-bottom: 50px;
-}
-
-.centerbutton {
-    float: left;
-    padding-left: 587px;
-    padding-bottom: 50px;
-    padding-top: 25px;
-}
-
 .button-space {
-    padding-top: 70px;
+    margin: 20px 0 15px 0;
 }
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* LAYOUT STYLING */
 .row {
     margin: 100px 0; 
@@ -459,10 +449,19 @@ ol.center-list li {
 }
 
 .imageWrapper {
-    padding-left: 30px;
-    padding-top: 125px;
+    padding-top: 80px;
 
 }
+
+.skills-wrapper{
+    text-align: center;
+}
+
+.tools-wrapper {
+    text-align: center;
+}
+
+
 
 /* ==============================
 Medium devices (641px and larger)
@@ -506,7 +505,6 @@ main {
 .col-md-12 {
     width: 100%;
 }
-
 
 #navigation nav > ul > li {
     display: inline-block;
@@ -557,14 +555,14 @@ p {
     padding-left: 25px; 
 }
 
-.lists {
-    padding-left: 120px;
+.buttons-container {
+    display: flex;
+    flex-direction: row;
 }
 
-.toolsWrapper {
-    padding-left: 5px;
+.button-space {
+    margin: 0 20px 0 20px;
 }
-
 
 #teanna-logo {
     width: 400px;
@@ -594,8 +592,7 @@ Large devices (1024px or larger)
 }
 
 .textWrapper {
-    width: 70%;
-    padding-left: 10px;
+    width: 60%;
 }
 
 #teanna-logo {
@@ -622,30 +619,6 @@ p {
     font-size: 1em;
 }
 
-.projectphoto {
-    width: 700px;
-}
-
-.projectphotoWrapper {
-    padding-left: 25%;
-}
-
-.skills{
-    text-align: center;
-}
-
-.tools{
-    text-align: center;
-    padding-left: 270px;
-}
-
-.skills-wrapper{
-    text-align: left;
-}
-.tools-wrapper {
-    text-align: left;
-}
-
 .svg1 {
     width: 80%;
     align-items: center;
@@ -655,5 +628,10 @@ p {
 .svg2{
     width: 80%;
     padding-left: 100px;
+}
+
+.imageWrapper {
+    margin-left: 50px;
+    margin-top: 130px;
 }
 }
