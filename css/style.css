@@ -271,6 +271,10 @@ a:focus {
     margin: 20px 0 15px 0;
 }
 
+#hero .button-space {
+    margin-bottom: 20px;
+}
+
 .buttons-container {
     display: flex;
     flex-direction: column;
@@ -613,6 +617,7 @@ h2 {
 h3 {
     font-size: 2em;
     font-weight: 400;
+    text-align: left;
 }
 
 h4 {
