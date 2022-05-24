@@ -70,7 +70,7 @@ img {
 }
 
 .imageWrapper {
-    padding-top: 80px;
+    padding-top: 55px;
 
 }
 
@@ -284,6 +284,36 @@ a:focus {
 
 
 /* LAYOUT STYLING */
+
+.smallrow {
+    margin-top: 4px;
+}
+.smallrow::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.divider {
+    margin-top: 100px;
+}
+
+.divider::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.bottomrow {
+    margin-bottom: 100px;
+}
+.bottomrow::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
 .row {
     margin: 100px 0; 
 }
