@@ -51,8 +51,8 @@ img {
 
 #teanna {
     float: right;
-    padding: 20px;
-    width: 250px;
+    padding-left: 15px;
+    width: 30%;
     height: auto;
 }
 
@@ -690,7 +690,7 @@ p {
 }
 
 #teanna-logo {
-    width: 400px;
+    width: 500px;
 }
 
 }
@@ -721,7 +721,7 @@ Large devices (1024px or larger)
 }
 
 #teanna-logo {
-    min-width: 150px;
+    width: 100px;
 }
 
 h1 {
