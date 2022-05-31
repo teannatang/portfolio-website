@@ -512,7 +512,31 @@ ol.center-list li {
 
 /* Make the images invisible by default */
 .Containers {
-  display: none;
+    position: relative;
+}
+
+.slide-image {
+    display: block;
+    width: 100%;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image-overlay:hover {
+    opacity: 1;
 }
 
 /* forward & Back buttons */
