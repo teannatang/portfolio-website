@@ -56,6 +56,17 @@ img {
     height: auto;
 }
 
+.resume {
+    width: 900px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.resume-container {
+    text-align: center;
+}
+
 .prototypes {
     display: inline-block;
     margin-left: 5px;
